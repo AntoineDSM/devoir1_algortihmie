@@ -1,12 +1,20 @@
 #pragma once
 #include <string>
-#include "Carte.h"
 #include <list>
 #include <vector>
 
-class Joueur
-{
-	public : 
+#include "Carte.h"
+#include "PileDM.h"
+
+#ifndef JOUEUR
+
+#define JOUEUR
+
+namespace joueur {
+
+	class Joueur
+	{
+	public:
 
 		//nom du joueur
 		std::string nomJoueur;
@@ -15,23 +23,28 @@ class Joueur
 		//total de cartes dans la main
 		int total;
 		//paquet de carte
-		std::vector<Carte> paquet;
+		pile::PileDM<carte::Carte> paquet;
 		//pile de gain
-		std::vector<Carte> gains;
+		pile::PileDM<carte::Carte> gains;
 
 
-	public :
+	public:
 
 		//construteur par défaut
-		Joueur() : nomJoueur(""), index(0), total(0)
+		Joueur() : nomJoueur(""), index(0), total(0), paquet(0), gains(0)
 		{
 			//rien de plus à ajouter ici
 		}
-
-
-		Joueur(const std::string nomJoueur, const int index, const int total) : nomJoueur(nomJoueur), index(index), total(total), paquet(total)
+		
+		//constructeur avec parametres
+		Joueur(std::string nomJoueur, int index, int total) : nomJoueur(nomJoueur), index(index), total(total)
 		{
-			//rien de plus à ajouter ici
+			paquet = pile::PileDM<carte::Carte>();
+			gains = pile::PileDM<carte::Carte>();
 		}
-};
+	};
 
+}//namespace joueur
+
+
+#endif //JOUEUR

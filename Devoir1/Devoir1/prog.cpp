@@ -1,8 +1,10 @@
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 #include <iostream>
 #include <algorithm>
+#include "Header/ex2/Dictionnaire.h"
+#include "Header/ex2/ArbreBinaire.h"
 
-#include "GameMaster.h"
+#include "Header/ex1/GameMaster.h"
 
 
 void demandeRejouer()
@@ -26,15 +28,42 @@ void deroulementPartie()
     demandeRejouer();
 }
 
+//int
+//main()
+//{
+//    while (1)
+//    {
+//        deroulementPartie();
+//    }
+//    return 0;
+//}
+
 int
 main()
 {
-    while (1)
-    {
-        deroulementPartie();
-    }
+    Dictionnaire* dict = new Dictionnaire();
+    std::cout << "\nOn ajoute les mots abas, arbre, arbuste, bas puis afficher le dictionnaire :\n\n";
+    dict->AjouterMot("abas");
+    dict->AjouterMot("arbre");
+    dict->AjouterMot("arbuste");
+    dict->AjouterMot("bas");
+    dict->AfficherDictionnaire();
+    std::cout << "\nOn recherche les mots abas, pol, navire et arbre :\n\n";
+    dict->ChercherMot("abas");
+    dict->ChercherMot("pol");
+    dict->ChercherMot("navire");
+    dict->ChercherMot("arbre");
+    std::cout << "\nEnlever le mot abas et afficher le dictionnaire :\n\n";
+    dict->EnleverMot("abas");
+    dict->AfficherDictionnaire();
+    std::cout << "\n";
+    std::cout << "\nEnlever le mot voiture alors qu'il n'y est pas, l'ajouter et afficher le dictionnaire :\n\n";
+    dict->EnleverMot("voiture");
+    dict->AjouterMot("voiture");
+    dict->AfficherDictionnaire();
+    std::cout << "\nEssayer d'enlever le mot a nouveau, afficher le dictionnaire :\n\n";
+    dict->EnleverMot("voiture");
+    dict->AfficherDictionnaire();
+    
     return 0;
 }
-
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

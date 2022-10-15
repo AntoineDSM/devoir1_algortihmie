@@ -5,7 +5,7 @@
 #include "Joueur.h"
 #include "Carte.h"
 #include "compteurpoints.h"
-#include "PileDM.h"
+#include "..\..\Header\ex1\PileDM.h"
 #include "TourDeJeu.h"
 #include "utilsDM.h"
 

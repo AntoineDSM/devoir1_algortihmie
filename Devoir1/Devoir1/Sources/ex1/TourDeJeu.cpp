@@ -1,4 +1,4 @@
-#include "TourDeJeu.h"
+#include "..\..\Header\ex1\TourDeJeu.h"
 
 int tourdejeu::TourDeJeu::determinerGagnant()
 {

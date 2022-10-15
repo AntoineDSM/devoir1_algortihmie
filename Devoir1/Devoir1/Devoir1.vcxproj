@@ -75,6 +75,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\antoi\Documents\UQAC\Algorithmie\Devoir1\devoir1_algortihmie\Devoir1\Devoir1\Header\ex2;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Users\antoi\Documents\UQAC\Algorithmie\Devoir1\devoir1_algortihmie\Devoir1\Devoir1\Sources\ex2;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -102,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\antoi\Documents\UQAC\Algorithmie\Devoir1\devoir1_algortihmie\Devoir1\Devoir1\Sources\ex2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,22 +142,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Carte.cpp" />
-    <ClCompile Include="CompteurPoints.cpp" />
-    <ClCompile Include="GameMaster.cpp" />
-    <ClCompile Include="Joueur.cpp" />
-    <ClCompile Include="Pile.cpp" />
     <ClCompile Include="prog.cpp" />
-    <ClCompile Include="TourDeJeu.cpp" />
+    <ClCompile Include="Sources\ex1\Carte.cpp" />
+    <ClCompile Include="Sources\ex1\CompteurPoints.cpp" />
+    <ClCompile Include="Sources\ex1\GameMaster.cpp" />
+    <ClCompile Include="Sources\ex1\Joueur.cpp" />
+    <ClCompile Include="Sources\ex1\Pile.cpp" />
+    <ClCompile Include="Sources\ex1\TourDeJeu.cpp" />
+    <ClCompile Include="Sources\ex2\ArbreBinaire.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="Sources\ex2\Dictionnaire.cpp" />
+    <ClCompile Include="Sources\ex2\Noeud.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Carte.h" />
-    <ClInclude Include="CompteurPoints.h" />
-    <ClInclude Include="GameMaster.h" />
-    <ClInclude Include="utilsDM.h" />
-    <ClInclude Include="Joueur.h" />
-    <ClInclude Include="PileDM.h" />
-    <ClInclude Include="TourDeJeu.h" />
+    <ClInclude Include="Header\ex1\Carte.h" />
+    <ClInclude Include="Header\ex1\CompteurPoints.h" />
+    <ClInclude Include="Header\ex1\GameMaster.h" />
+    <ClInclude Include="Header\ex1\Joueur.h" />
+    <ClInclude Include="Header\ex1\PileDM.h" />
+    <ClInclude Include="Header\ex1\TourDeJeu.h" />
+    <ClInclude Include="Header\ex1\utilsDM.h" />
+    <ClInclude Include="Header\ex2\ArbreBinaire.h" />
+    <ClInclude Include="Header\ex2\Dictionnaire.h" />
+    <ClInclude Include="Header\ex2\Noeud.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

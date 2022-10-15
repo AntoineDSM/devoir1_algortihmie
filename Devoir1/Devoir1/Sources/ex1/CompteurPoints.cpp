@@ -1,4 +1,4 @@
-#include "CompteurPoints.h"
+#include "..\..\Header\ex1\CompteurPoints.h"
 
 float compteurpoints::CompteurPoints::comptagePaquet(pile::PileDM<carte::Carte> paquet)
 {

@@ -1,4 +1,4 @@
-#include "GameMaster.h"
+#include "..\..\Header\ex1\GameMaster.h"
 
 
 void GameMaster::creationJoueur(std::string nomJoueur1, std::string nomJoueur2)

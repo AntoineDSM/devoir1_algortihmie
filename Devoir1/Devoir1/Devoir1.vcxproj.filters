@@ -13,51 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ex1">
+      <UniqueIdentifier>{996625e2-cf1c-42a5-ae4a-fb4f02e820a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ex2">
+      <UniqueIdentifier>{c122bf24-8e19-46fa-823b-22a373995cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ex1">
+      <UniqueIdentifier>{9e4fc122-336f-4d62-b2de-c8fc59f59fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ex2">
+      <UniqueIdentifier>{1b9921cf-33eb-43fc-aee0-aa8ffb62f10d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="prog.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Carte.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Sources\ex1\Carte.cpp">
+      <Filter>Fichiers sources\Ex1</Filter>
     </ClCompile>
-    <ClCompile Include="Joueur.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Sources\ex1\CompteurPoints.cpp">
+      <Filter>Fichiers sources\Ex1</Filter>
     </ClCompile>
-    <ClCompile Include="GameMaster.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Sources\ex1\GameMaster.cpp">
+      <Filter>Fichiers sources\Ex1</Filter>
     </ClCompile>
-    <ClCompile Include="TourDeJeu.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Sources\ex1\Joueur.cpp">
+      <Filter>Fichiers sources\Ex1</Filter>
     </ClCompile>
-    <ClCompile Include="CompteurPoints.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Sources\ex1\TourDeJeu.cpp">
+      <Filter>Fichiers sources\Ex1</Filter>
     </ClCompile>
-    <ClCompile Include="Pile.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="Sources\ex1\Pile.cpp">
+      <Filter>Fichiers sources\Ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex2\ArbreBinaire.cpp">
+      <Filter>Fichiers sources\Ex2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex2\Dictionnaire.cpp">
+      <Filter>Fichiers sources\Ex2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex2\Noeud.cpp">
+      <Filter>Fichiers sources\Ex2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Carte.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Header\ex1\TourDeJeu.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
     </ClInclude>
-    <ClInclude Include="Joueur.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Header\ex1\utilsDM.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
     </ClInclude>
-    <ClInclude Include="GameMaster.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Header\ex1\Carte.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
     </ClInclude>
-    <ClInclude Include="TourDeJeu.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Header\ex1\CompteurPoints.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
     </ClInclude>
-    <ClInclude Include="CompteurPoints.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Header\ex1\GameMaster.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
     </ClInclude>
-    <ClInclude Include="PileDM.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Header\ex1\Joueur.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
     </ClInclude>
-    <ClInclude Include="utilsDM.h">
-      <Filter>Fichiers sources</Filter>
+    <ClInclude Include="Header\ex1\PileDM.h">
+      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex2\ArbreBinaire.h">
+      <Filter>Fichiers d%27en-tête\Ex2</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex2\Dictionnaire.h">
+      <Filter>Fichiers d%27en-tête\Ex2</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex2\Noeud.h">
+      <Filter>Fichiers d%27en-tête\Ex2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

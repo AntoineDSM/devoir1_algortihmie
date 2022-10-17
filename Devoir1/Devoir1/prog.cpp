@@ -28,6 +28,7 @@ void deroulementPartie()
     demandeRejouer();
 }
 
+//MAIN POUR LE PREMIER EXERCICE
 //int
 //main()
 //{
@@ -38,6 +39,8 @@ void deroulementPartie()
 //    return 0;
 //}
 
+
+//MAIN POUR LE SECOND EXERCICE
 int
 main()
 {

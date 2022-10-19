@@ -6,7 +6,8 @@
 
 #include "Noeud.h"
 
-
+//Pour la simplicité de lecture, les méthodes ne servant pas ne sont pas intégré à ce header. Elles restent dans le .cpp. Cependant, si nous voulions les utiliser il faudrait les déplacer dans le header car nous utilisons
+//une classe avec type générique. Depuis VS 2017, les méthodes de class de type générique doivent être déclarées dans le header, sinon cela créer des erreurs d'éditions de liens. 
 namespace arbreBinaire {
 
 	template <typename T>
@@ -28,7 +29,7 @@ namespace arbreBinaire {
 		//Destructeur
 		~ArbreBinaire();
 		
-		//---------------------------------------------------------------------------METHODES PUBLIQUES UTILES---------------------------------------------------------------------------------------------------------------------------
+		//---------------------------------------------------------------------------METHODES PUBLIQUES---------------------------------------------------------------------------------------------------------------------------
 
 		//Permet de supprimer tous les éléments de l'arbre
 		void ViderArbre(Noeud<T> arbre);
@@ -211,7 +212,7 @@ namespace arbreBinaire {
 
 	private :
 
-		//---------------------------------------------------------------------------METHODES PRIVATES UTILES---------------------------------------------------------------------------------------------------------------------------
+		//---------------------------------------------------------------------------METHODES PRIVATES ---------------------------------------------------------------------------------------------------------------------------
 
 		T _successeur(Noeud<T>* noeud, const T& data);
 

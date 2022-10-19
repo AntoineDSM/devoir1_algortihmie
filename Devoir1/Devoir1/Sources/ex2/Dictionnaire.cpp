@@ -32,15 +32,21 @@ void Dictionnaire::AjouterMot(std::string data)
     }
     auto _data = data.std::string::c_str();//On convertie notre string en const char*
     int size = static_cast<int>(std::strlen(_data));
-    if (!arbre->ChercherValeur(_data))//on regarde si le mot est dans notre dictionnaire, si oui, on n'ajoute pas le mot une seconde fois.
+    if (arbre->cpt == 0)
     {
         arbre->AjouterListe(arbre->racine, _data, size);
     }
     else
     {
-        std::cout << "le mot est deja dans le dictionnaire\n";
+        if (!arbre->ChercherValeur(_data))//on regarde si le mot est dans notre dictionnaire, si oui, on n'ajoute pas le mot une seconde fois.
+        {
+            arbre->AjouterListe(arbre->racine, _data, size);
+        }
+        else
+        {
+            std::cout << "le mot est deja dans le dictionnaire\n";
+        }
     }
-
 }
 
 void Dictionnaire::AfficherDictionnaire()

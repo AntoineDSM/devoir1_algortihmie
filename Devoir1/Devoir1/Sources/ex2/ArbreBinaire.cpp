@@ -1,4 +1,5 @@
 
+/*
 #include "..\..\Header\ex2\ArbreBinaire.h"
 
 using namespace arbreBinaire;
@@ -258,3 +259,4 @@ Noeud<T>* ArbreBinaire<T>::_successeur(Noeud<T>* noeud, Noeud<T>* parent)
 	}
 	return courant;
 }
+*/

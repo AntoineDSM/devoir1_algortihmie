@@ -142,6 +142,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arbre.cpp" />
+    <ClCompile Include="ArbreGenealogique.cpp" />
+    <ClCompile Include="Personne.cpp" />
     <ClCompile Include="prog.cpp" />
     <ClCompile Include="Sources\ex1\Carte.cpp" />
     <ClCompile Include="Sources\ex1\CompteurPoints.cpp" />
@@ -157,6 +160,8 @@
     <ClCompile Include="Sources\ex2\Noeud.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arbre.h" />
+    <ClInclude Include="ArbreGenealogique.h" />
     <ClInclude Include="Header\ex1\Carte.h" />
     <ClInclude Include="Header\ex1\CompteurPoints.h" />
     <ClInclude Include="Header\ex1\GameMaster.h" />
@@ -167,6 +172,8 @@
     <ClInclude Include="Header\ex2\ArbreBinaire.h" />
     <ClInclude Include="Header\ex2\Dictionnaire.h" />
     <ClInclude Include="Header\ex2\Noeud.h" />
+    <ClInclude Include="NoeudArbreGenealogique.h" />
+    <ClInclude Include="Personne.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

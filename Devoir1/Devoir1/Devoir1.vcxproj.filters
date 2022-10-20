@@ -25,6 +25,12 @@
     <Filter Include="Fichiers sources\Ex2">
       <UniqueIdentifier>{1b9921cf-33eb-43fc-aee0-aa8ffb62f10d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Exo3">
+      <UniqueIdentifier>{ad83d768-2aaa-4f35-8ab2-fe042f762d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Exo3">
+      <UniqueIdentifier>{c53888e8-070b-49f4-884e-1ff5a96353c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="prog.cpp">
@@ -57,6 +63,15 @@
     <ClCompile Include="Sources\ex2\Noeud.cpp">
       <Filter>Fichiers sources\Ex2</Filter>
     </ClCompile>
+    <ClCompile Include="ArbreGenealogique.cpp">
+      <Filter>Fichiers sources\Exo3</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre.cpp">
+      <Filter>Fichiers sources\Exo3</Filter>
+    </ClCompile>
+    <ClCompile Include="Personne.cpp">
+      <Filter>Fichiers sources\Exo3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\ex1\TourDeJeu.h">
@@ -88,6 +103,18 @@
     </ClInclude>
     <ClInclude Include="Header\ex2\Noeud.h">
       <Filter>Fichiers d%27en-tête\Ex2</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbreGenealogique.h">
+      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+    </ClInclude>
+    <ClInclude Include="Personne.h">
+      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre.h">
+      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+    </ClInclude>
+    <ClInclude Include="NoeudArbreGenealogique.h">
+      <Filter>Fichiers d%27en-tête\Exo3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

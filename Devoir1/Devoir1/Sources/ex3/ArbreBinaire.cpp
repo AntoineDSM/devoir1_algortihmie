@@ -258,3 +258,4 @@ Noeud<T>* ArbreBinaire<T>::_successeur(Noeud<T>* noeud, Noeud<T>* parent)
 	}
 	return courant;
 }
+*/

@@ -1,14 +1,16 @@
-
 #include <iostream>
 #include <algorithm>
 #include <stdexcept>
+
+#define MAIN1
 
 //-------------------------------------------------------------------------------DECOMMENTER LE MAIN CORRESPONDANT A L'EXERCICE SOUHAITE------------------------------------------------------------------------------------
 
 
 //-------------------------------------------------------------------------------------------MAIN POUR LE PREMIER EXERCICE---------------------------------------------------------------------------------------------
 
-/*
+#ifdef MAIN1
+
 #include "Header/ex1/GameMaster.h"
 
 void demandeRejouer()
@@ -41,11 +43,13 @@ main()
     }
     return 0;
 }
-*/
+
+#endif
 
 //-------------------------------------------------------------------------------------------MAIN POUR LE DEUXIEME EXERCICE---------------------------------------------------------------------------------------------
 
-/*
+#ifdef MAIN2
+
 #include "Header/ex2/Machine.h"
 #include "Header/ex2/File.h"
 
@@ -170,11 +174,13 @@ int main()
 	}
 	return 0;
 }
-*/
+
+#endif
 
 //-------------------------------------------------------------------------------------------MAIN POUR LE TROISIEME EXERCICE----------------------------------------------------------------------------------------------
 
-/*
+#ifdef MAIN3
+
 #include "Header/ex3/Dictionnaire.h"
 #include "Header/ex3/ArbreBinaire.h"
 int
@@ -206,11 +212,13 @@ main()
     
     return 0;
 }
-*/
+
+#endif
 
 //--------------------------------------------------------------------------------------MAIN POUR LE QUATRIEME EXERCICE---------------------------------------------------------------------------
 
-/*
+#ifdef MAIN4
+
 #include "ArbreGenealogique.h"
 #include "Arbre.h"
 #include "Personne.h"
@@ -255,11 +263,13 @@ main()
     arbreG->lireDescendancePersonne(GP1, 1);//Post order
     return 0;
 }
-*/
+
+#endif
 
 //--------------------------------------------------------------------------------------MAIN POUR LE CINQUIEME EXERCICE---------------------------------------------------------------------------
 
-/*
+#ifdef MAIN4
+
 #include "Header/ex5/Liste.h"
 #include "Header/ex5/Noeud.h"
 
@@ -296,4 +306,5 @@ int main()
 	cout << "Somme des ID en partant d'une element quelconque de la liste: " << total3 << endl;
 	return 0;
 }
-*/
+
+#endif

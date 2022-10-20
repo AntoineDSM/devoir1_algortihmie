@@ -13,107 +13,140 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\Ex1">
-      <UniqueIdentifier>{996625e2-cf1c-42a5-ae4a-fb4f02e820a0}</UniqueIdentifier>
+    <Filter Include="Fichiers sources\Exo5">
+      <UniqueIdentifier>{c484f5c4-ff9f-42df-ae73-ede6ab47ad5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\Ex2">
-      <UniqueIdentifier>{c122bf24-8e19-46fa-823b-22a373995cdb}</UniqueIdentifier>
+    <Filter Include="Fichiers d%27en-tête\Exo5">
+      <UniqueIdentifier>{55b94e22-0d94-45b5-af43-4e4b3ec17b94}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Ex1">
-      <UniqueIdentifier>{9e4fc122-336f-4d62-b2de-c8fc59f59fc6}</UniqueIdentifier>
+    <Filter Include="Fichiers d%27en-tête\Exo4">
+      <UniqueIdentifier>{ad83d768-2aaa-4f35-8ab2-fe042f762d02}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Ex2">
+    <Filter Include="Fichiers sources\Exo4">
+      <UniqueIdentifier>{c53888e8-070b-49f4-884e-1ff5a96353c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Exo3">
       <UniqueIdentifier>{1b9921cf-33eb-43fc-aee0-aa8ffb62f10d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Fichiers d%27en-tête\Exo3">
-      <UniqueIdentifier>{ad83d768-2aaa-4f35-8ab2-fe042f762d02}</UniqueIdentifier>
+      <UniqueIdentifier>{c122bf24-8e19-46fa-823b-22a373995cdb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Exo3">
-      <UniqueIdentifier>{c53888e8-070b-49f4-884e-1ff5a96353c8}</UniqueIdentifier>
+    <Filter Include="Fichiers d%27en-tête\Exo1">
+      <UniqueIdentifier>{996625e2-cf1c-42a5-ae4a-fb4f02e820a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Exo2">
+      <UniqueIdentifier>{3eebf37e-8fbd-4b7a-b9ae-32de305dea7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Exo1">
+      <UniqueIdentifier>{9e4fc122-336f-4d62-b2de-c8fc59f59fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Exo2">
+      <UniqueIdentifier>{8ffc346d-d1d0-46cf-b219-f832009c5651}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Sources\ex1\Carte.cpp">
+      <Filter>Fichiers sources\Exo1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex1\CompteurPoints.cpp">
+      <Filter>Fichiers sources\Exo1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex1\GameMaster.cpp">
+      <Filter>Fichiers sources\Exo1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex1\Joueur.cpp">
+      <Filter>Fichiers sources\Exo1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex1\TourDeJeu.cpp">
+      <Filter>Fichiers sources\Exo1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex1\Pile.cpp">
+      <Filter>Fichiers sources\Exo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbreGenealogique.cpp">
+      <Filter>Fichiers sources\Exo4</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre.cpp">
+      <Filter>Fichiers sources\Exo4</Filter>
+    </ClCompile>
+    <ClCompile Include="Personne.cpp">
+      <Filter>Fichiers sources\Exo4</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ex5\Exercice5.cpp">
+      <Filter>Fichiers sources\Exo5</Filter>
+    </ClCompile>
     <ClCompile Include="prog.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\ex1\Carte.cpp">
-      <Filter>Fichiers sources\Ex1</Filter>
+    <ClCompile Include="Sources\ex2\Exercice2.cpp">
+      <Filter>Fichiers sources\Exo2</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\ex1\CompteurPoints.cpp">
-      <Filter>Fichiers sources\Ex1</Filter>
+    <ClCompile Include="Sources\ex2\Machine.cpp">
+      <Filter>Fichiers sources\Exo2</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\ex1\GameMaster.cpp">
-      <Filter>Fichiers sources\Ex1</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex1\Joueur.cpp">
-      <Filter>Fichiers sources\Ex1</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex1\TourDeJeu.cpp">
-      <Filter>Fichiers sources\Ex1</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex1\Pile.cpp">
-      <Filter>Fichiers sources\Ex1</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex2\ArbreBinaire.cpp">
-      <Filter>Fichiers sources\Ex2</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex2\Dictionnaire.cpp">
-      <Filter>Fichiers sources\Ex2</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex2\Noeud.cpp">
-      <Filter>Fichiers sources\Ex2</Filter>
-    </ClCompile>
-    <ClCompile Include="ArbreGenealogique.cpp">
+    <ClCompile Include="Sources\ex3\ArbreBinaire.cpp">
       <Filter>Fichiers sources\Exo3</Filter>
     </ClCompile>
-    <ClCompile Include="Arbre.cpp">
+    <ClCompile Include="Sources\ex3\Dictionnaire.cpp">
       <Filter>Fichiers sources\Exo3</Filter>
     </ClCompile>
-    <ClCompile Include="Personne.cpp">
+    <ClCompile Include="Sources\ex3\Noeud.cpp">
       <Filter>Fichiers sources\Exo3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\ex1\TourDeJeu.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="Header\ex1\utilsDM.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="Header\ex1\Carte.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="Header\ex1\CompteurPoints.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="Header\ex1\GameMaster.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="Header\ex1\Joueur.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="Header\ex1\PileDM.h">
-      <Filter>Fichiers d%27en-tête\Ex1</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\ex2\ArbreBinaire.h">
-      <Filter>Fichiers d%27en-tête\Ex2</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\ex2\Dictionnaire.h">
-      <Filter>Fichiers d%27en-tête\Ex2</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\ex2\Noeud.h">
-      <Filter>Fichiers d%27en-tête\Ex2</Filter>
+      <Filter>Fichiers d%27en-tête\Exo1</Filter>
     </ClInclude>
     <ClInclude Include="ArbreGenealogique.h">
-      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+      <Filter>Fichiers d%27en-tête\Exo4</Filter>
     </ClInclude>
     <ClInclude Include="Personne.h">
-      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+      <Filter>Fichiers d%27en-tête\Exo4</Filter>
     </ClInclude>
     <ClInclude Include="Arbre.h">
-      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+      <Filter>Fichiers d%27en-tête\Exo4</Filter>
     </ClInclude>
     <ClInclude Include="NoeudArbreGenealogique.h">
+      <Filter>Fichiers d%27en-tête\Exo4</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex5\Liste.h">
+      <Filter>Fichiers d%27en-tête\Exo5</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex5\Noeud.h">
+      <Filter>Fichiers d%27en-tête\Exo5</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex2\File.h">
+      <Filter>Fichiers d%27en-tête\Exo2</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex2\Machine.h">
+      <Filter>Fichiers d%27en-tête\Exo2</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex3\Dictionnaire.h">
+      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex3\Noeud.h">
+      <Filter>Fichiers d%27en-tête\Exo3</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ex3\ArbreBinaire.h">
       <Filter>Fichiers d%27en-tête\Exo3</Filter>
     </ClInclude>
   </ItemGroup>

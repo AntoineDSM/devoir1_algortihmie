@@ -152,12 +152,12 @@
     <ClCompile Include="Sources\ex1\Joueur.cpp" />
     <ClCompile Include="Sources\ex1\Pile.cpp" />
     <ClCompile Include="Sources\ex1\TourDeJeu.cpp" />
-    <ClCompile Include="Sources\ex2\ArbreBinaire.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
-    </ClCompile>
-    <ClCompile Include="Sources\ex2\Dictionnaire.cpp" />
-    <ClCompile Include="Sources\ex2\Noeud.cpp" />
+    <ClCompile Include="Sources\ex2\Exercice2.cpp" />
+    <ClCompile Include="Sources\ex2\Machine.cpp" />
+    <ClCompile Include="Sources\ex3\ArbreBinaire.cpp" />
+    <ClCompile Include="Sources\ex3\Dictionnaire.cpp" />
+    <ClCompile Include="Sources\ex3\Noeud.cpp" />
+    <ClCompile Include="Sources\ex5\Exercice5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arbre.h" />
@@ -169,9 +169,13 @@
     <ClInclude Include="Header\ex1\PileDM.h" />
     <ClInclude Include="Header\ex1\TourDeJeu.h" />
     <ClInclude Include="Header\ex1\utilsDM.h" />
-    <ClInclude Include="Header\ex2\ArbreBinaire.h" />
-    <ClInclude Include="Header\ex2\Dictionnaire.h" />
-    <ClInclude Include="Header\ex2\Noeud.h" />
+    <ClInclude Include="Header\ex2\File.h" />
+    <ClInclude Include="Header\ex2\Machine.h" />
+    <ClInclude Include="Header\ex3\ArbreBinaire.h" />
+    <ClInclude Include="Header\ex3\Dictionnaire.h" />
+    <ClInclude Include="Header\ex3\Noeud.h" />
+    <ClInclude Include="Header\ex5\Liste.h" />
+    <ClInclude Include="Header\ex5\Noeud.h" />
     <ClInclude Include="NoeudArbreGenealogique.h" />
     <ClInclude Include="Personne.h" />
   </ItemGroup>

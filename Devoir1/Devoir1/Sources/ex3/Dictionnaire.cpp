@@ -1,5 +1,5 @@
-#include "..\..\Header\ex2\Dictionnaire.h"
-#include "..\..\Header\ex2\ArbreBinaire.h"
+#include "..\..\Header\ex3\Dictionnaire.h"
+#include "..\..\Header\ex3\ArbreBinaire.h"
 #include <string>
 
 using namespace arbreBinaire;

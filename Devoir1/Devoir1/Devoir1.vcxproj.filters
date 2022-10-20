@@ -72,14 +72,8 @@
     <ClCompile Include="Personne.cpp">
       <Filter>Fichiers sources\Exo4</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\ex5\Exercice5.cpp">
-      <Filter>Fichiers sources\Exo5</Filter>
-    </ClCompile>
     <ClCompile Include="prog.cpp">
       <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Sources\ex2\Exercice2.cpp">
-      <Filter>Fichiers sources\Exo2</Filter>
     </ClCompile>
     <ClCompile Include="Sources\ex2\Machine.cpp">
       <Filter>Fichiers sources\Exo2</Filter>

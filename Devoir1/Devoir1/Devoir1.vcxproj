@@ -152,12 +152,10 @@
     <ClCompile Include="Sources\ex1\Joueur.cpp" />
     <ClCompile Include="Sources\ex1\Pile.cpp" />
     <ClCompile Include="Sources\ex1\TourDeJeu.cpp" />
-    <ClCompile Include="Sources\ex2\Exercice2.cpp" />
     <ClCompile Include="Sources\ex2\Machine.cpp" />
     <ClCompile Include="Sources\ex3\ArbreBinaire.cpp" />
     <ClCompile Include="Sources\ex3\Dictionnaire.cpp" />
     <ClCompile Include="Sources\ex3\Noeud.cpp" />
-    <ClCompile Include="Sources\ex5\Exercice5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arbre.h" />

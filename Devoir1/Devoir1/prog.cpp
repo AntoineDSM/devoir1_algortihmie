@@ -296,4 +296,4 @@ int main()
 	cout << "Somme des ID en partant d'une element quelconque de la liste: " << total3 << endl;
 	return 0;
 }
-/*
+*/
